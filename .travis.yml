@@ -1,0 +1,9 @@
+os: linux
+jobs:
+include:
+- dist: focal
+virt: vm
+group: dev
+- dist: focal
+virt: lxd
+group: dev
